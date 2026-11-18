@@ -1,0 +1,19 @@
+Package: MyFirstPackage
+Type: Package
+Title: Simple Fitness Tools
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Eva", "Meglic",
+      email = "eva.meglic@ki.se",
+      role = c("aut", "cre")
+    )
+  )
+Description: Provides functions to calculate body mass index
+    and generate random workout challenges with different
+    difficulty levels.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.1
+Roxygen: list(markdown = TRUE)
